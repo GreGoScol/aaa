@@ -1,0 +1,83 @@
+html{
+    background-image: url(img/portalFundo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(8, 8, 8);
+    padding: 1px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+h1,h2,h3,h4,h5,h6,p,a,table{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.tal{
+    text-align: left;
+    margin-left: 10px;
+}
+.tar{
+    text-align: right;
+    margin-right: 10px;
+}
+.imgDir{
+    display: block;
+    margin-left: 760px;
+}
+.lh{
+    line-height: 1px;
+}
+.corLaranja{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.botao{
+    display: block;
+    background-size: contain;
+    background-color: orange;
+    line-height: 50px;
+    width: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botao:hover{
+    display: block;
+    background-color: rgb(255, 201, 99);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.imgHover{
+}
+.imgHover:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.bal{
+    margin-left: 10px;
+}
+.meio{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corBranca{
+    color: white;
+}
+.font{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table, th, td{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+
+}
